@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minto Burger - Reservations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="iconlogo.png" alt="Minto Burger Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="reservation">
+    <h2>Make a Reservation</h2>
+    <p>Please fill out the form below to reserve your table at Minto Burger.</p>
+    <form action="#" method="POST">
+      <table>
+        <tr>
+          <td><label for="name">Name:</label></td>
+          <td><input type="text" id="name" name="name" placeholder="Your Name" required></td>
+        </tr>
+        <tr>
+          <td><label for="phone">Phone Number:</label></td>
+          <td><input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required></td>
+        </tr>
+        <tr>
+          <td><label for="date">Reservation Date:</label></td>
+          <td><input type="date" id="date" name="date" required></td>
+        </tr>
+        <tr>
+          <td><label for="time">Reservation Time:</label></td>
+          <td><input type="time" id="time" name="time" required></td>
+        </tr>
+        <tr>
+          <td><label for="people">Number of People:</label></td>
+          <td><input type="number" id="people" name="people" min="1" max="20" required></td>
+        </tr>
+      </table>
+      <button type="submit">Submit Reservation</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="iconlogo.png" alt="Logo">
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="reservations.html">Reservations</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <p>&copy; 2024 Minto Burger. All rights reserved.</p>
+  </footer>
+</body>
+</html>
